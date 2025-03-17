@@ -1,0 +1,27 @@
+{
+  "name": "@achong/quick-type-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool to generate TypeScript types from API interfaces",
+  "bin": {
+    "achongQuicktype": "./bin/cli.js"
+  },
+  "keywords": [
+    "cli",
+    "typescript",
+    "types",
+    "api",
+    "quicktype"
+  ],
+  "author": "jc17312888823@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@darkobits/lolcatjs": "^3.1.3",
+    "chalk": "^4.1.0",
+    "commander": "^11.0.0",
+    "figlet": "^1.8.0",
+    "inquirer": "^8.2.6",
+    "ora": "^4.0.4",
+    "quicktype-core": "^23.0.78",
+    "shelljs": "^0.8.5"
+  }
+}

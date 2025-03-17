@@ -1,0 +1,21 @@
+{
+  "name": "achong-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Monorepo for achong and related packages",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pnpm -r build",
+    "dev": "pnpm -r dev",
+    "lint": "pnpm -r lint",
+    "clean": "pnpm -r clean",
+    "publish-packages": "pnpm -r publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^8.2.1",
+    "typescript": "^4.9.5"
+  }
+}
