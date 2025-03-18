@@ -42,6 +42,14 @@ importers:
         specifier: ^0.8.5
         version: 0.8.5
 
+  packages/hooks:
+    dependencies:
+      '@achong/libs':
+        specifier: workspace:^
+        version: link:../libs
+
+  packages/libs: {}
+
   packages/ui: {}
 
 packages:
