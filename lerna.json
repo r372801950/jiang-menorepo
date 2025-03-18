@@ -7,7 +7,16 @@
   "command": {
     "publish": {
       "conventionalCommits": true,
-      "message": "[skip ci] chore: release"
+      "message": "[skip ci] chore: release",
+      "registry": "http://localhost:4873/",
+      "noGitReset": true,
+      "noGitTag": true,
+      "allowBranch": ["main", "*"],
+      "yes": true
+    },
+    "version": {
+      "gitTagVersion": false,
+      "push": false
     }
   }
 }
