@@ -50,8 +50,6 @@ importers:
 
   packages/libs: {}
 
-  packages/ui: {}
-
 packages:
 
   '@ampproject/remapping@2.3.0':
