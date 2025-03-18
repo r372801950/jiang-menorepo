@@ -31,3 +31,7 @@ npm config set noproxy localhost
 
 npm config set registry https://registry.npmjs.org/
 npm set registry http://localhost:4873/
+
+明明又了ssh，还是要输密码，是因为https
+git remote -v
+git remote set-url origin git@github.com:r372801950/jiang-menorepo.git
