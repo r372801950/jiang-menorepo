@@ -1,5 +1,6 @@
 # dependencies
 node_modules
+jspm_packages/
 .pnp
 .pnp.js
 
@@ -11,13 +12,23 @@ coverage
 dist
 build
 lib
-.next
+*.tsbuildinfo
 
 # misc
 .DS_Store
 *.pem
 .idea
 .vscode
+
+# module formats
+*.umd.js
+*.esm.mjs
+*.modern.mjs
+*.cjs
+*.min.js
+
+# source maps
+*.map
 
 # debug
 npm-debug.log*
@@ -34,3 +45,4 @@ pnpm-debug.log*
 # turbo
 .turbo
 /lerna-debug.log
+/.changeset/

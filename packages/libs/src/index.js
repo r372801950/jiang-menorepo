@@ -1,5 +1,2 @@
-// export function init(){
-function init(){
-  console.log('-----测试项目🐮-----')
-}
-module.exports = init
+module.exports=function(){console.log("-----测试项目🐮-----")};
+//# sourceMappingURL=index.js.map

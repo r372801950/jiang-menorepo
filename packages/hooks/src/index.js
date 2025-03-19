@@ -1,3 +1,2 @@
-let init = require('@achong/libs');
-init()
-console.log('init', init);
+var i=require("@achong/libs");i(),console.log("init",i);
+//# sourceMappingURL=index.js.map

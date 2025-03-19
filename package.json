@@ -8,13 +8,18 @@
     "dev": "pnpm -r dev",
     "lint": "pnpm -r lint",
     "clean": "pnpm -r clean",
-    "publish-packages": "pnpm -r publish"
+    "publish-packages": "pnpm -r publish",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "pnpm build && changeset publish"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@changesets/cli": "^2.28.1",
     "lerna": "^8.2.1",
+    "microbundle": "^0.15.1",
     "typescript": "^4.9.5"
   }
 }
