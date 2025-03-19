@@ -46,3 +46,5 @@ pnpm-debug.log*
 .turbo
 /lerna-debug.log
 /.changeset/
+
+*storybook.log
